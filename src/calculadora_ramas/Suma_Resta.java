@@ -36,4 +36,10 @@ public class Suma_Resta {
         result=num1/num2;
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Suma_Resta{" + "num1=" + num1 + ", num2=" + num2 + ", result=" + result + '}';
+    }
+    
 }
