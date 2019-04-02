@@ -14,6 +14,8 @@ public class Suma_Resta {
     private int num1, num2,result;
 
     public Suma_Resta() {
+     this.num1=8;
+     this.num2=2;
     }
     
     public int Suma(){
@@ -22,6 +24,14 @@ public class Suma_Resta {
     }
     public int Resta(){
         result=num1-num2;
+        return result;
+    }
+    public int Multiplicacion(){
+        result=num1*num2;
+        return result;
+    }
+    public int Division(){
+        result=num1/num2;
         return result;
     }
 }
