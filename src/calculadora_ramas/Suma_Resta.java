@@ -11,6 +11,8 @@ package calculadora_ramas;
  */
 public class Suma_Resta {
     
+    //Esta es la segunda rama
+    //Con los metodos de suma,resta,multiplicacion y division
     private int num1, num2,result;
 
     public Suma_Resta() {
