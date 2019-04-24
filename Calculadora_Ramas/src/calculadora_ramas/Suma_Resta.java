@@ -29,7 +29,7 @@ public class Suma_Resta {
         result=num1*num2;
         return result;
     }
-    public int Division(){
+    public int Division(){n
         result=num1/num2;
         return result;
     }
